@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestHelpers", "test\CPI.TestHelpers\TestHelpers.csproj", "{F577D41F-5A6D-4707-8715-C20C58F0FEAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBX.Test.AcceptanceTests", "test\CPI.Svc.AcceptanceTests\EBX.Test.AcceptanceTests.csproj", "{20B917BA-5464-40E8-8D39-F0C3D336C79F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BBAD680B-13C8-40A3-A02B-A09AAB91C011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F577D41F-5A6D-4707-8715-C20C58F0FEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F577D41F-5A6D-4707-8715-C20C58F0FEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F577D41F-5A6D-4707-8715-C20C58F0FEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F577D41F-5A6D-4707-8715-C20C58F0FEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B917BA-5464-40E8-8D39-F0C3D336C79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B917BA-5464-40E8-8D39-F0C3D336C79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B917BA-5464-40E8-8D39-F0C3D336C79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B917BA-5464-40E8-8D39-F0C3D336C79F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F577D41F-5A6D-4707-8715-C20C58F0FEAA} = {BBAD680B-13C8-40A3-A02B-A09AAB91C011}
+		{20B917BA-5464-40E8-8D39-F0C3D336C79F} = {BBAD680B-13C8-40A3-A02B-A09AAB91C011}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD7C0A73-C928-4CDE-9F95-84FC1E04B3FA}
+	EndGlobalSection
+EndGlobal

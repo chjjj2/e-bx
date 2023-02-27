@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CPI.Svc.AcceptanceTests": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "QA"
+      }
+    }
+  }
+}
